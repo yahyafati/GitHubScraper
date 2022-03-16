@@ -1,0 +1,41 @@
+{
+    "name": "",
+    "username": "navy87",
+    "contact": { "city": null },
+    "repositories": {
+        "navy87": {
+            "fork": "0",
+            "stars": "0",
+            "branch": "main",
+            "about": "Config files for my GitHub profile.",
+            "website": "github.com/navy87"
+        },
+        "Dalol": {
+            "fork": "0",
+            "stars": "0",
+            "branch": "master",
+            "about": null,
+            "website": "Readme",
+            "languages": [
+                ["Python", "82.2%"],
+                ["HTML", "17.8%"]
+            ]
+        },
+        "DevProfile": {
+            "fork": "0",
+            "stars": "0",
+            "branch": "master",
+            "about": "First Project with some sense",
+            "website": "0\n    stars",
+            "languages": [["Kotlin", "100.0%"]]
+        },
+        "PickDinner": {
+            "fork": "0",
+            "stars": "0",
+            "branch": "master",
+            "about": "Testing out android git features",
+            "website": "0\n    stars",
+            "languages": [["Kotlin", "100.0%"]]
+        }
+    }
+}
