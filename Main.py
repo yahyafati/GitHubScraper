@@ -218,11 +218,6 @@ def get_all_infos(username: str) -> dict[str]:
     Returns:
         * dict[str, Any] - all the data on the person
     """
-    # os.mkdir(username)
-    # os.chdir(username)
-    # get_pages(username)
-    # main_body = read_page("main.html")
-    # repositories_body = read_page("repositories.html")
 
     url = f"https://github.com/{username}"
     main_body = requests.get(url).text
@@ -234,7 +229,6 @@ def get_all_infos(username: str) -> dict[str]:
         "contact": get_contact(main_soup),
         "repositories": get_all_repository_details(username),
     }
-    # os.chdir("..")
     return result
 
 
@@ -272,8 +266,4 @@ def get_json(username: str, infos: dict = None) -> str:
 
 
 print(save_as_json("navy87"))
-# save_as_json("0xecho")
 
-# repo_page = read_page("aspiod.html")
-# soup = BeautifulSoup(repo_page, PARSER)
-# print(get_branch_name(soup))
