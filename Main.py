@@ -1,8 +1,6 @@
-from io import StringIO
 import json
 from bs4 import BeautifulSoup
 import requests
-import os
 
 PARSER = "html.parser"
 
@@ -266,4 +264,3 @@ def get_json(username: str, infos: dict = None) -> str:
 
 
 print(save_as_json("navy87"))
-
